@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OMG 台灣地震速報 - 隱私權政策</title>
+<meta name="description" content="OMG 台灣地震速報 App 的隱私權政策">
+<style>
+  body { font-family: -apple-system, "PingFang TC", "Microsoft JhengHei", sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 24px 20px 60px;
+         background: #1A1A2E; color: #E0E6ED; line-height: 1.8; }
+  h1 { font-size: 24px; color: #FFFFFF; }
+  h2 { font-size: 17px; color: #4FC3F7; margin-top: 28px; }
+  p, li { font-size: 15px; }
+  .dim { color: #90A4AE; font-size: 13px; }
+  a { color: #4FC3F7; }
+</style>
+</head>
+<body>
+<h1>OMG 台灣地震速報 - 隱私權政策</h1>
+<p class="dim">生效日期：2026-07-31（最後更新：2026-08-03）</p>
+
+<p>「OMG 台灣地震速報」（下稱「本 App」）由 mshw 開發，提供台灣地區地震報告查詢與地震速報通知。我們重視您的隱私，說明如下。</p>
+
+<h2>一、我們蒐集與處理的資料</h2>
+<ul>
+  <li><b>位置資訊</b>：僅在您的裝置端用於計算您與震央的距離、預估當地震度與震波抵達時間。<b>位置資料不會離開您的裝置</b>，不會上傳至任何伺服器。</li>
+  <li><b>偏好設定</b>：速報開關、震度門檻、資料來源設定（含中央氣象署授權碼）僅儲存於裝置本機。</li>
+  <li><b>網路連線資訊</b>：本 App 向資料伺服器請求地震資料時，伺服器（Cloudflare Workers 代理）如同一般網站會暫時接收您的 IP 位址等連線資訊，僅用於提供服務與防止濫用，不用於追蹤或建立個人檔案。</li>
+</ul>
+
+<h2>二、我們不做的事</h2>
+<ul>
+  <li>本 App 無帳號系統，不要求註冊，不蒐集姓名、電話、Email 等個人識別資料。</li>
+  <li>不內嵌廣告 SDK 或第三方分析追蹤工具。</li>
+  <li>不出售、出租或與第三方分享您的任何資料。</li>
+</ul>
+
+<h2>三、使用的系統權限</h2>
+<ul>
+  <li><b>位置</b>：計算震央距離與預估震度（可拒絕，改以台灣中心點估算）。</li>
+  <li><b>通知</b>：發送地震速報通知。</li>
+  <li><b>震動</b>：速報時的震動提醒。</li>
+  <li><b>網路</b>：取得地震資料。</li>
+  <li><b>背景執行</b>：App 退到背景時維持地震資料輪詢，確保速報不中斷（系統會顯示常駐通知）。</li>
+</ul>
+
+<h2>四、同意與撤回</h2>
+<p>本 App 於首次啟動時徵求您的同意後，才開始連線網路取得地震資料並申請系統權限。您可以隨時於「設定 → 關於 → 撤回隱私權同意」撤回同意，撤回後 App 將停止連網與速報服務；下次啟動時會重新詢問。</p>
+
+<h2>五、資料來源與第三方服務</h2>
+<ul>
+  <li>地震資料來源：<a href="https://opendata.cwa.gov.tw">中央氣象署開放資料平臺</a>。</li>
+  <li>資料代理主機：Cloudflare Workers（僅轉發與快取公開地震資料）。</li>
+</ul>
+
+<h2>六、兒童隱私</h2>
+<p>本 App 不針對兒童蒐集任何個人資料。</p>
+
+<h2>七、免責聲明</h2>
+<p>本 App 為輔助性質的非官方服務，速報與通知可能因網路或資料發布時程而延遲或遺漏，防災應變請以中央氣象署及政府官方發布之資訊為準。</p>
+
+<h2>八、政策變更與聯絡方式</h2>
+<p>本政策如有變更將於本頁公告。如有任何疑問，請聯絡：<a href="mailto:mizuhara@mshw.info">mizuhara@mshw.info</a></p>
+
+<p class="dim">專案原始碼：<a href="https://github.com/mshwinfo/omg-earthquake-alert">GitHub - mshwinfo/omg-earthquake-alert</a></p>
+</body>
+</html>
