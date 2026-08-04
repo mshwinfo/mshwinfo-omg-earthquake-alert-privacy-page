@@ -1,8 +1,11 @@
-# OMG 台灣地震速報 — 隱私權政策頁
+# OMG 台灣地震速報 — 隱私權政策與服務條款頁
 
-本 repo 透過 GitHub Pages 提供「OMG 台灣地震速報」隱私權政策的**正本**：
+本 repo 透過 GitHub Pages 提供「OMG 台灣地震速報」法務文件的**正本**：
 
-**https://mshwinfo.github.io/mshwinfo-omg-earthquake-alert-privacy-page/**
+| 文件 | 網址 |
+|---|---|
+| 隱私權政策 | **https://mshwinfo.github.io/mshwinfo-omg-earthquake-alert-privacy-page/** |
+| 服務條款 | **https://mshwinfo.github.io/mshwinfo-omg-earthquake-alert-privacy-page/terms.html** |
 
 這個網址被以下地方引用，改內容只要改這裡：
 
